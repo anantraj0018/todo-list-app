@@ -1,3 +1,42 @@
+body{
+    background-color:antiquewhite;
+    
+}
+#hed{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+#p1{
+    height: 25px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#ad1{
+    width: 90px;
+    height: 30px;
+}
+#lists{
+    display: flex;
+    justify-content: center;
+
+}
+input::placeholder, 
+textarea::placeholder {
+  font-size: 15px;
+}
+
 h1{
-    color: aqua;
+    color: black;
 }
