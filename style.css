@@ -40,3 +40,14 @@ textarea::placeholder {
 h1{
     color: black;
 }
+#main-box{
+    background-color: aliceblue;
+    width:350px;
+    margin:auto;
+    height: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px grey;
+    border: 1px solid black;
+
+}
