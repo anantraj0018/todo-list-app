@@ -5,7 +5,7 @@ body{
 #hed{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 #input{
     display: flex;
@@ -26,6 +26,10 @@ body{
 #ad1{
     width: 90px;
     height: 30px;
+    background-color: rgb(155, 162, 162);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid black;
 }
 #lists{
     display: flex;
@@ -46,8 +50,19 @@ h1{
     margin:auto;
     height: auto;
     margin-top: 150px;
+    margin-bottom:150px;
     border-radius: 10px;
     box-shadow: 10px 5px 5px grey;
     border: 1px solid black;
 
+}
+.delete{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color:rgb(67, 105, 105);
+    color: white;
+    height: 20px;
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
